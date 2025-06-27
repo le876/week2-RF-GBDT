@@ -21,16 +21,16 @@
 ### 模型预测效果可视化
 
 #### 1. GBDT_Ackley (Pearson: 0.8728)
-![GBDT Ackley预测结果](images/gbdt_ackley_result.png)
+<img src="images/gbdt_ackley_result.png" alt="GBDT Ackley预测结果" width="500">
 
 #### 2. RF_Ackley (Pearson: 0.904)
-![RF Ackley预测结果](images/rf_ackley_result.png)
+<img src="images/rf_ackley_result.png" alt="RF Ackley预测结果" width="500">
 
 #### 3. GBDT_Rosenbrock (Pearson: 0.9210)
-![GBDT Rosenbrock预测结果](images/gbdt_rosenbrock_result.png)
+<img src="images/gbdt_rosenbrock_result.png" alt="GBDT Rosenbrock预测结果" width="500">
 
 #### 4. RF_Rosenbrock (Pearson: 0.852)
-![RF Rosenbrock预测结果](images/rf_rosenbrock_result.png)
+<img src="images/rf_rosenbrock_result.png" alt="RF Rosenbrock预测结果" width="500">
 ### 最佳模型配置
 
 #### 1. Ackley GBDT最佳参数
