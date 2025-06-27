@@ -4,7 +4,7 @@
 
 ## 项目目标
 
-使用GBDT模型对Rosenbrock数据集进行回归预测，目标是达到Pearson相关系数 >= 0.85。
+使用GBDT模型对Rosenbrock数据集进行回归预测，目标是将Pearson相关系数尽可能高。
 
 ## 目录结构
 
