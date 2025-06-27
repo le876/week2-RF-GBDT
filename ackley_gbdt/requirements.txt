@@ -1,0 +1,11 @@
+scikit-learn>=1.2.2
+numpy>=1.24.3
+matplotlib>=3.7.1
+pandas>=1.5.3
+seaborn>=0.12.2
+optuna>=3.1.0  # 用于贝叶斯优化
+joblib>=1.2.0  # 用于模型保存和加载
+
+# GPU加速依赖（可选）
+# cuml-cu12>=23.10.0  # RAPIDS cuML库，用于GPU加速
+# cupy-cuda12x>=12.0.0  # CuPy库，用于GPU加速的NumPy替代品 

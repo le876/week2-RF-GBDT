@@ -1,0 +1,10 @@
+---
+description: 
+globs: 使用GBDT和随机森林训练ackley以及rosenbrock模型的任务，目标是 pearson ratio>0.85
+alwaysApply: false
+---
+
+# Your rule content
+
+- You can @ files here
+- You can use markdown but dont have to

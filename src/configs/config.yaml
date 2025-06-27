@@ -1,0 +1,35 @@
+defaults:
+  - _self_
+
+# 基础配置
+seed: 42
+device: auto  # auto, cuda, or cpu
+
+# 数据配置
+data:
+  train_path: data/processed/train
+  val_path: data/processed/val
+  test_path: data/processed/test
+  batch_size: 32
+  num_workers: 4
+
+# 模型配置
+model:
+  name: default_model
+  hidden_size: 256
+  num_layers: 2
+  dropout: 0.1
+
+# 训练配置
+training:
+  epochs: 100
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  early_stopping_patience: 10
+  
+# 日志配置
+logging:
+  project_name: my_project
+  log_dir: logs
+  save_dir: models
+  use_wandb: false 
