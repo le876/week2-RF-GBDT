@@ -18,14 +18,19 @@
 | **RF** | Ackley | **0.904** | 
 | **GBDT** | Rosenbrock | **0.9210** | 
 | **RF** | Rosenbrock | **0.852** | 
-#### 1.GBDT_Ackley
-![alt text](image.png)
-#### 2.RF_Ackley
-![alt text](ackley_rf/visualizations/squared_features/test_prediction_vs_actual.png)
-#### 3.GBDT_Rosenbrock
-![alt text](rosenbrock_gbdt/models/tuning_results/bayesian_opt/20250313_220752/test_prediction_vs_actual.png)
-#### 4.RF_Rosenbrock
-![alt text](rosenbrock_rf/models/tuning_results/squared_features/20250314_132901/visualizations/test_prediction_vs_actual.png)
+### 模型预测效果可视化
+
+#### 1. GBDT_Ackley (Pearson: 0.8728)
+![GBDT Ackley预测结果](images/gbdt_ackley_result.png)
+
+#### 2. RF_Ackley (Pearson: 0.904)
+![RF Ackley预测结果](images/rf_ackley_result.png)
+
+#### 3. GBDT_Rosenbrock (Pearson: 0.9210)
+![GBDT Rosenbrock预测结果](images/gbdt_rosenbrock_result.png)
+
+#### 4. RF_Rosenbrock (Pearson: 0.852)
+![RF Rosenbrock预测结果](images/rf_rosenbrock_result.png)
 ### 最佳模型配置
 
 #### 1. Ackley GBDT最佳参数

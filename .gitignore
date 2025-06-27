@@ -66,7 +66,7 @@ Anaconda3-*.sh
 *.zip
 *.rar
 
-# 可视化结果
+# 可视化结果（但保留README用的图片）
 *.png
 *.jpg
 *.jpeg
@@ -75,6 +75,12 @@ Anaconda3-*.sh
 */test_plots/
 test_plots/
 visualizations/
+
+# 允许README用的图片
+!images/
+!images/*.png
+!images/*.jpg
+!images/*.jpeg
 
 # 其他
 .DS_Store
